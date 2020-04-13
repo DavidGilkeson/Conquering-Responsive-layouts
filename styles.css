@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+}
+
+.parent {
+
+    background-color: #23424a;
+    padding: 50px;
+
+    /* width: 900px; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.child {
+    background-color: blue;
+    width: 75%;
+    height: 250px;
+}
+
+.container {
+
+    background: #23454f;
+    color: white;
+
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 5em;
+    /* 16 * 5 = 80px */
+}
